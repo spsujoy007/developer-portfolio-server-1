@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Puran bazar",
+        "image": "https://i.ibb.co/GJQxDKK/puranbazar.png",
+        "tools": [
+            {"img": "https://i.ibb.co/48Kw6zg/react.png", "title": "React JS"},
+            {"img": "https://i.ibb.co/2SCD4Z2/mongodb.png", "title": "MongoDb"},
+            {"img": "https://i.ibb.co/vcrbK9t/firebase.png", "title": "Firebase"},
+            {"img": "https://i.ibb.co/1by4CGK/tailwind.png", "title": "Tailwind"},
+            {"img": "https://i.ibb.co/3TF8VFw/vercel.png", "title": "Vercel"}
+        ],
+        "demolink": "https://puran-bazar-resale.web.app/",
+        "codelink": "https://github.com/spsujoy007/puran-bazar-client-12",
+        "details": "This is a resale product based MERN project. Firebase Authentication with email password and Google account. Users have to be registered to be able to see the products under different categories. There are three types of users- Admin Seller and Buyer. Users Details are saved during registration in the MongoDB database with node.js. For joining with a google pop-up the user's email is searched in MongoDB. Custom Hook is created to check user roles from the database"
+    },
+    {
+        "id": 2,
+        "title": "Travellian",
+        "image": "https://i.ibb.co/jy4NxJs/travellian.png",
+        "tools": [
+            {"img": "https://i.ibb.co/48Kw6zg/react.png", "title": "React JS"},
+            {"img": "https://i.ibb.co/2SCD4Z2/mongodb.png", "title": "MongoDb"},
+            {"img": "https://i.ibb.co/vcrbK9t/firebase.png", "title": "Firebase"},
+            {"img": "https://i.ibb.co/1by4CGK/tailwind.png", "title": "Tailwind"},
+            {"img": "https://i.ibb.co/3TF8VFw/vercel.png", "title": "Vercel"}
+        ],
+        "demolink": "https://travellian-client-007.web.app/",
+        "codelink": "https://github.com/spsujoy007/Travellian-web-client-11",
+        "details": "Firebase Authentication with email password and Google account. Users have to be registered to be able to see the places. You can search for your favorite place to go there and book a resort. Google sign-in popup register system. You can book a place to go there and people are giving reviews in this category card and you can delete your own review. In there add service section an admin can add a new service. You can change the website theme light to black."
+    },
+    {
+        "id": 3,
+        "title": "Deep Coder",
+        "image": "https://i.ibb.co/2nNBHqz/deepcoder.png",
+        "tools": [
+            {"img": "https://i.ibb.co/48Kw6zg/react.png", "title": "React JS"},
+            {"img": "https://i.ibb.co/vcrbK9t/firebase.png", "title": "Firebase"},
+            {"img": "https://i.ibb.co/1by4CGK/tailwind.png", "title": "Tailwind"},
+            {"img": "https://i.ibb.co/3TF8VFw/vercel.png", "title": "Vercel"}
+        ],
+        "demolink": "https://deep-coder-knowledge.web.app/",
+        "codelink": "https://github.com/spsujoy007/deep-coder-knowledge-client-10",
+        "details": "Firebase Authentication with email password and Google account. Here you can see the google singing popup system. On this website you can buy a premium course to learn new programming languages. It helps you to grow your brain and give you more knowledge. When a user clicks the checkout button, he will see a confirmation alert. This is made better for the user experience."
+    }
+]
