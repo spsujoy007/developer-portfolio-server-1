@@ -44,6 +44,13 @@ async function run(){
             console.log(result);
             res.send(result)
         })
+        app.delete('/blogs', async (req, res) => {
+            const id = req.query.id;
+            const query = { _id: ObjectId(id)}
+            const result = await blogsCollection.deleteOne(query);
+            console.log(result);
+            res.send(result)
+        })
     }
     finally{
         
